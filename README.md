@@ -2,7 +2,7 @@
 
 Welcome. Here are the Luberto et al. templates for SED fitting with EAZY.
 
-The files are in the repo, as are tutorials showing how to do more stuff with it than running in native EAZY. With them we can recover full (predicted) SFHs, for instance.
+The files are in the repo, as are tutorials showing how to do more stuff with it than running in native EAZY. With them we can, for instance, recover full (predicted) SFHs.
 
 There are a few ways you can use these templates. Here are a few use-cases:
 
