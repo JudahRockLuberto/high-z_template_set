@@ -10,7 +10,7 @@ There are a few ways you can use these templates. Here are a few use-cases:
 
 This is the quick option, and all you need to do is download the templates. Choose if you want Lya or no Lya, follow the instructions by EAZY for how to use the new template set (really just putting it in the 'templates' directory in EAZY), and celebrate your succesful use of these templates!
 
-Or if you want EAZY to run even faster, you can download the 'tempfilt' files for the template sets and run the EAZY instance with 'tempfilt=tempfilt_array', where 'tempfilt_array' is the file from here. I recommend just doing np.loadtxt() to load the file into your Python code. Doing this will skip the setup portion in EAZY (where it computes what the template set looks like as photometry and across z) and immediately go into the fitting procedure. It can save a lot of time.
+Or if you want EAZY to run even faster, you can download the 'tempfilt' files for the template sets and run the EAZY instance with 'tempfilt=tempfilt_array', where 'tempfilt_array' is the file from here. I recommend just doing np.loadtxt() to load the file into your Python code. Doing this will skip the setup portion in EAZY (where it computes what the template set looks like as photometry and across z) and immediately go into the fitting procedure. It can save some time.
 
 To get the z, stellar mass, SFR at z observed, you go through EAZY itself, either in it's 'standard_output()' functionality or stuff like EAZY.zbest. Note that the SFRs INCLUDE the contribution from bursts, if you choose those templates.
 
