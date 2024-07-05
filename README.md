@@ -1,6 +1,6 @@
 # ARES and SEDs, a tutorial.
 
-Welcome. Here reside the Luberto et al. templates for SED fitting with EAZY.
+Welcome. Here are the Luberto et al. templates for SED fitting with EAZY.
 
 The files are in the repo, as are tutorials showing how to do more stuff with it than running in native EAZY. With them we can recover full (predicted) SFHs, for instance.
 
