@@ -12,7 +12,7 @@ This is the quick option, and all you need to do is download the templates. Choo
 
 To get the z, stellar mass, SFR at z observed, you go through EAZY itself, either in it's 'standard_output()' functionality or stuff like EAZY.zbest. Note that the SFRs INCLUDE the contribution from bursts, if you choose those templates. Feel free to modify the files themselves if you want the SFRs to NOT include the burst as part of the SFR, by setting the "burst" files' SFRs to the same as the non-burst ones.
 
-### If you want to use the full fitted SFR (or a depeer analysis of the SFR like a time average):
+### You want to use the full fitted SFH (or a depeer analysis of the SFR like a time average):
 
 This makes a lot of sense considering the bursts in the templates are included in the SFR spit out in EAZY. For instance, if you want to know the burstiness of the galaxy, you need to know the galaxy contribution AND the burst contribution. The tutorial 'perc_burstiness_tutorial.ipynb' in the tutorial directory shows you how to do this. You can also know what the SFR looks like throughout all z, as seen in 'find_SFHs_tutorial.ipynb'. The reason we can do this really comes down to knowing the full fitted SFH of these galaxies.
 
