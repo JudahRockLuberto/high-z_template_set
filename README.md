@@ -10,7 +10,7 @@ There are a few ways you can use these templates. Here are a few use-cases:
 
 This is the quick option, and all you need to do is download the templates. Choose if you want Lya or no Lya, follow the instructions for EAZY for how to use the new template set (really just putting it in the 'templates' directory in EAZY, and making sure the parameters in EAZY have 'TEMPLATES_FILE' as the correct template and 'WAVELENGTH_FILE' as the correct wavelenght file), and celebrate your succesful use of these templates!
 
-To get the z, stellar mass, SFR at z observed, you go through EAZY itself, either in it's 'standard_output()' functionality or stuff like EAZY.zbest. Note that the SFRs INCLUDE the contribution from bursts, if you choose those templates. Feel free to modify the files themselves if you want the SFRs to NOT include the burst as part of the SFR, by setting the "burst" files' SFRs to the same as the non-burst ones.
+To get the z, stellar mass, SFR at z observed, you go through EAZY itself, either in it's 'standard_output()' functionality or stuff like EAZY.zbest. Note that the SFRs INCLUDE the contribution from bursts, if you choose those templates. Feel free to modify the files themselves if you want the SFRs to NOT include the burst as part of the SFR, by setting the "burst" files' SFRs to the same as the non-burst ones OR you can look below for a more in-depth way to use these templates.
 
 ### You want to use the full fitted SFH (or a depeer analysis of the SFR like a time average):
 
