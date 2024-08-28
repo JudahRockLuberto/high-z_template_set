@@ -1,4 +1,4 @@
-# ARES and SEDs, a tutorial.
+# A High-z Template Set for EAZY, a tutorial.
 
 Welcome. Here are the Luberto et al. templates for SED fitting with EAZY. The details of them are explained in the paper!
 
